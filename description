@@ -1,0 +1,33 @@
+# SIEM & Endpoint Security Practice - Capstone Project
+
+This capstone project demonstrates a simulated enterprise SIEM and endpoint protection environment to test log ingestion, threat detection, and analysis capabilities using VirtualBox VMs, Splunk, and OpenSSH-based attack simulation.
+
+# Objectives
+- Deploy and configure Splunk as a SIEM tool
+- Monitor Ubuntu logs for suspicious activity (e.g., brute-force attempts)
+- Simulate SSH-based brute force attacks using Kali Linux
+- Ingest and analyze log data using Splunk SPL queries
+- Detect and analyze failed login attempts (brute-force detection)
+
+# Lab Setup
+
+| Component        | Configuration                      |
+|------------------|-----------------------------------|
+| SIEM Tool        | Splunk Enterprise 9.4.3            |
+| Attack Platform  | Kali Linux (with Nmap, Metasploit) |
+| Target System    | Ubuntu VM (OpenSSH enabled)        |
+| Log Source       | `/var/log/auth.log`                |
+| Platform         | VirtualBox                         |
+
+#  Key Steps
+
+1. **Nmap Scan**: Kali Linux scanned Ubuntu VM for open ports.
+2. **Metasploit + SSH Attack**: Simulated brute force attempts using invalid SSH logins.
+3. **Log Monitoring**: Configured Splunk to monitor `/var/log/auth.log`.
+4. **Event Search in Splunk**: Used SPL to identify `Failed password` events.
+5. **Detection Outcome**: Splunk successfully detected and displayed SSH login failures.
+
+#  Example SPL Queries
+
+```spl
+index=main source="/var/log/auth.log" | search "Failed password"

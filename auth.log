@@ -1,0 +1,317 @@
+2025-06-23T17:52:09.831043+00:00 sanjana-VirtualBox systemd-logind[921]: New seat seat0.
+2025-06-23T17:52:09.831044+00:00 sanjana-VirtualBox systemd-logind[921]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-06-23T17:52:09.831045+00:00 sanjana-VirtualBox systemd-logind[921]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-06-23T17:52:09.831065+00:00 sanjana-VirtualBox systemd-logind[921]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-06-23T17:52:09.831075+00:00 sanjana-VirtualBox polkitd[893]: Loading rules from directory /etc/polkit-1/rules.d
+2025-06-23T17:52:09.831076+00:00 sanjana-VirtualBox polkitd[893]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-06-23T17:52:09.831095+00:00 sanjana-VirtualBox polkitd[893]: Finished loading, compiling and executing 16 rules
+2025-06-23T17:52:09.831098+00:00 sanjana-VirtualBox polkitd[893]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-06-23T17:52:12.173333+00:00 sanjana-VirtualBox useradd[1326]: new group: name=sanjana, GID=1000
+2025-06-23T17:52:12.173363+00:00 sanjana-VirtualBox useradd[1326]: new user: name=sanjana, UID=1000, GID=1000, home=/home/sanjana, shell=/bin/bash, from=none
+2025-06-23T17:52:12.173945+00:00 sanjana-VirtualBox useradd[1326]: add 'sanjana' to group 'adm'
+2025-06-23T17:52:12.173964+00:00 sanjana-VirtualBox useradd[1326]: add 'sanjana' to group 'cdrom'
+2025-06-23T17:52:12.173972+00:00 sanjana-VirtualBox useradd[1326]: add 'sanjana' to group 'sudo'
+2025-06-23T17:52:12.173984+00:00 sanjana-VirtualBox useradd[1326]: add 'sanjana' to group 'dip'
+2025-06-23T17:52:12.173995+00:00 sanjana-VirtualBox useradd[1326]: add 'sanjana' to group 'plugdev'
+2025-06-23T17:52:12.174003+00:00 sanjana-VirtualBox useradd[1326]: add 'sanjana' to group 'users'
+2025-06-23T17:52:12.174011+00:00 sanjana-VirtualBox useradd[1326]: add 'sanjana' to group 'lpadmin'
+2025-06-23T17:52:12.174019+00:00 sanjana-VirtualBox useradd[1326]: add 'sanjana' to shadow group 'adm'
+2025-06-23T17:52:12.174026+00:00 sanjana-VirtualBox useradd[1326]: add 'sanjana' to shadow group 'cdrom'
+2025-06-23T17:52:12.174033+00:00 sanjana-VirtualBox useradd[1326]: add 'sanjana' to shadow group 'sudo'
+2025-06-23T17:52:12.174042+00:00 sanjana-VirtualBox useradd[1326]: add 'sanjana' to shadow group 'dip'
+2025-06-23T17:52:12.174051+00:00 sanjana-VirtualBox useradd[1326]: add 'sanjana' to shadow group 'plugdev'
+2025-06-23T17:52:12.174059+00:00 sanjana-VirtualBox useradd[1326]: add 'sanjana' to shadow group 'users'
+2025-06-23T17:52:12.174066+00:00 sanjana-VirtualBox useradd[1326]: add 'sanjana' to shadow group 'lpadmin'
+2025-06-23T17:52:12.225184+00:00 sanjana-VirtualBox passwd[1339]: password for 'sanjana' changed by 'root'
+2025-06-23T17:52:14.294696+00:00 sanjana-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-06-23T17:52:14.324436+00:00 sanjana-VirtualBox systemd-logind[921]: New session c1 of user gdm.
+2025-06-23T17:52:14.348070+00:00 sanjana-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-06-23T17:52:16.328905+00:00 sanjana-VirtualBox polkitd[893]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-06-23T17:52:26.202116+00:00 sanjana-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2025-06-23T17:52:26.202218+00:00 sanjana-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2025-06-23T17:52:26.222766+00:00 sanjana-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user sanjana(uid=1000) by sanjana(uid=0)
+2025-06-23T17:52:26.241741+00:00 sanjana-VirtualBox systemd-logind[921]: New session 2 of user sanjana.
+2025-06-23T17:52:26.269602+00:00 sanjana-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user sanjana(uid=1000) by sanjana(uid=0)
+2025-06-23T17:52:26.464119+00:00 sanjana-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-06-23T17:52:26.850777+00:00 sanjana-VirtualBox gnome-keyring-daemon[2241]: The Secret Service was already initialized
+2025-06-23T17:52:26.851912+00:00 sanjana-VirtualBox gnome-keyring-daemon[2500]: discover_other_daemon: 1
+2025-06-23T17:52:26.855384+00:00 sanjana-VirtualBox gnome-keyring-daemon[2241]: The PKCS#11 component was already initialized
+2025-06-23T17:52:26.855788+00:00 sanjana-VirtualBox gnome-keyring-daemon[2505]: discover_other_daemon: 1
+2025-06-23T17:52:26.860031+00:00 sanjana-VirtualBox gnome-keyring-daemon[2508]: discover_other_daemon: 1
+2025-06-23T17:52:28.167493+00:00 sanjana-VirtualBox polkitd[893]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-06-23T17:52:28.766891+00:00 sanjana-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-06-23T17:52:28.798789+00:00 sanjana-VirtualBox polkitd[893]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-06-23T17:52:28.809486+00:00 sanjana-VirtualBox systemd-logind[921]: Session c1 logged out. Waiting for processes to exit.
+2025-06-23T17:52:28.818401+00:00 sanjana-VirtualBox systemd-logind[921]: Removed session c1.
+2025-06-23T18:04:22.617676+00:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/usr/bin/dpkg -i splunk-9.4.3-237ebbd22314-linux-amd64.deb
+2025-06-23T18:04:22.620869+00:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T18:04:23.675553+00:00 sanjana-VirtualBox groupadd[6775]: group added to /etc/group: name=splunk, GID=1001
+2025-06-23T18:04:23.678550+00:00 sanjana-VirtualBox groupadd[6775]: group added to /etc/gshadow: name=splunk
+2025-06-23T18:04:23.679648+00:00 sanjana-VirtualBox groupadd[6775]: new group: name=splunk, GID=1001
+2025-06-23T18:04:23.701582+00:00 sanjana-VirtualBox useradd[6782]: new user: name=splunk, UID=1001, GID=1001, home=/opt/splunk, shell=/bin/bash, from=/dev/pts/1
+2025-06-23T18:05:01.879627+00:00 sanjana-VirtualBox CRON[6821]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T18:05:01.886451+00:00 sanjana-VirtualBox CRON[6821]: pam_unix(cron:session): session closed for user root
+2025-06-23T18:06:08.741805+00:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T13:12:26.982207-05:00 sanjana-VirtualBox systemd-logind[853]: New seat seat0.
+2025-06-23T13:12:26.982210-05:00 sanjana-VirtualBox systemd-logind[853]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-06-23T13:12:26.982211-05:00 sanjana-VirtualBox systemd-logind[853]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-06-23T13:12:26.982217-05:00 sanjana-VirtualBox systemd-logind[853]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-06-23T13:12:26.982225-05:00 sanjana-VirtualBox polkitd[831]: Loading rules from directory /etc/polkit-1/rules.d
+2025-06-23T13:12:26.982227-05:00 sanjana-VirtualBox polkitd[831]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-06-23T13:12:26.982238-05:00 sanjana-VirtualBox polkitd[831]: Finished loading, compiling and executing 16 rules
+2025-06-23T13:12:26.982242-05:00 sanjana-VirtualBox polkitd[831]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-06-23T13:12:27.976339-05:00 sanjana-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-06-23T13:12:28.017392-05:00 sanjana-VirtualBox systemd-logind[853]: New session c1 of user gdm.
+2025-06-23T13:12:28.051324-05:00 sanjana-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-06-23T13:12:30.270565-05:00 sanjana-VirtualBox polkitd[831]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-06-23T13:12:40.562435-05:00 sanjana-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2025-06-23T13:12:40.562499-05:00 sanjana-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2025-06-23T13:12:40.586298-05:00 sanjana-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user sanjana(uid=1000) by sanjana(uid=0)
+2025-06-23T13:12:40.604112-05:00 sanjana-VirtualBox systemd-logind[853]: New session 2 of user sanjana.
+2025-06-23T13:12:40.631876-05:00 sanjana-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user sanjana(uid=1000) by sanjana(uid=0)
+2025-06-23T13:12:40.876950-05:00 sanjana-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-06-23T13:12:41.261875-05:00 sanjana-VirtualBox gnome-keyring-daemon[1672]: The Secret Service was already initialized
+2025-06-23T13:12:41.263530-05:00 sanjana-VirtualBox gnome-keyring-daemon[1859]: discover_other_daemon: 1
+2025-06-23T13:12:41.276070-05:00 sanjana-VirtualBox gnome-keyring-daemon[1672]: The PKCS#11 component was already initialized
+2025-06-23T13:12:41.276525-05:00 sanjana-VirtualBox gnome-keyring-daemon[1867]: discover_other_daemon: 1
+2025-06-23T13:12:41.276724-05:00 sanjana-VirtualBox gnome-keyring-daemon[1866]: discover_other_daemon: 1
+2025-06-23T13:12:42.950976-05:00 sanjana-VirtualBox polkitd[831]: Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-06-23T13:14:03.786514-05:00 sanjana-VirtualBox systemd-logind[844]: New seat seat0.
+2025-06-23T13:14:03.786520-05:00 sanjana-VirtualBox systemd-logind[844]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-06-23T13:14:03.786521-05:00 sanjana-VirtualBox systemd-logind[844]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-06-23T13:14:03.786532-05:00 sanjana-VirtualBox systemd-logind[844]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-06-23T13:14:03.786545-05:00 sanjana-VirtualBox polkitd[812]: Loading rules from directory /etc/polkit-1/rules.d
+2025-06-23T13:14:03.786546-05:00 sanjana-VirtualBox polkitd[812]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-06-23T13:14:03.782434-05:00 sanjana-VirtualBox polkitd[812]: Finished loading, compiling and executing 16 rules
+2025-06-23T13:14:03.787676-05:00 sanjana-VirtualBox polkitd[812]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-06-23T13:14:05.003520-05:00 sanjana-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-06-23T13:14:05.043436-05:00 sanjana-VirtualBox systemd-logind[844]: New session c1 of user gdm.
+2025-06-23T13:14:05.068343-05:00 sanjana-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-06-23T13:14:07.082516-05:00 sanjana-VirtualBox polkitd[812]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-06-23T13:14:28.010501-05:00 sanjana-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2025-06-23T13:14:28.010631-05:00 sanjana-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2025-06-23T13:14:28.036367-05:00 sanjana-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user sanjana(uid=1000) by sanjana(uid=0)
+2025-06-23T13:14:28.066049-05:00 sanjana-VirtualBox systemd-logind[844]: New session 2 of user sanjana.
+2025-06-23T13:14:28.088376-05:00 sanjana-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user sanjana(uid=1000) by sanjana(uid=0)
+2025-06-23T13:14:28.348235-05:00 sanjana-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-06-23T13:14:28.754062-05:00 sanjana-VirtualBox gnome-keyring-daemon[1672]: The Secret Service was already initialized
+2025-06-23T13:14:28.755682-05:00 sanjana-VirtualBox gnome-keyring-daemon[1877]: discover_other_daemon: 1
+2025-06-23T13:14:28.758456-05:00 sanjana-VirtualBox gnome-keyring-daemon[1672]: The PKCS#11 component was already initialized
+2025-06-23T13:14:28.758608-05:00 sanjana-VirtualBox gnome-keyring-daemon[1880]: discover_other_daemon: 1
+2025-06-23T13:14:28.764628-05:00 sanjana-VirtualBox gnome-keyring-daemon[1884]: discover_other_daemon: 1
+2025-06-23T13:14:30.320186-05:00 sanjana-VirtualBox polkitd[812]: Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-06-23T13:14:30.939693-05:00 sanjana-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-06-23T13:14:30.949292-05:00 sanjana-VirtualBox systemd-logind[844]: Session c1 logged out. Waiting for processes to exit.
+2025-06-23T13:14:30.972692-05:00 sanjana-VirtualBox polkitd[812]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-06-23T13:14:30.992701-05:00 sanjana-VirtualBox systemd-logind[844]: Removed session c1.
+2025-06-23T13:15:02.891635-05:00 sanjana-VirtualBox CRON[2666]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T13:15:02.904726-05:00 sanjana-VirtualBox CRON[2666]: pam_unix(cron:session): session closed for user root
+2025-06-23T13:17:01.913212-05:00 sanjana-VirtualBox CRON[2725]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T13:17:01.918774-05:00 sanjana-VirtualBox CRON[2725]: pam_unix(cron:session): session closed for user root
+2025-06-23T13:20:59.965757-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/sanjana/Downloads/splunk-9.4.3-237ebbd22314-linux-amd64.deb
+2025-06-23T13:20:59.966069-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T13:21:17.899432-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T13:23:36.103896-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana ; USER=root ; COMMAND=/usr/bin/apt update
+2025-06-23T13:23:36.104737-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T13:23:40.779767-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T13:23:54.855790-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana ; USER=root ; COMMAND=/usr/bin/apt install curl -y
+2025-06-23T13:23:54.856733-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T13:23:57.209536-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T13:24:38.302340-05:00 sanjana-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T13:24:38.304579-05:00 sanjana-VirtualBox pkexec[15510]: sanjana: Executing command [USER=root] [TTY=unknown] [CWD=/home/sanjana] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-06-23T13:25:01.955263-05:00 sanjana-VirtualBox CRON[15613]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T13:25:01.957889-05:00 sanjana-VirtualBox CRON[15613]: pam_unix(cron:session): session closed for user root
+2025-06-23T13:25:14.481209-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/usr/bin/dpkg -i splunk-9.4.3-237ebbd22314-linux-amd64.deb
+2025-06-23T13:25:14.481975-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T13:25:29.698847-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T13:25:59.105925-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/usr/bin/apt --fix-broken install
+2025-06-23T13:25:59.111166-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T13:25:59.562471-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T13:26:18.931550-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/usr/bin/dpkg -i splunk-9.4.3-237ebbd22314-linux-amd64.deb
+2025-06-23T13:26:18.932273-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T13:26:33.959362-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T13:26:54.331986-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/usr/bin/apt --fix-broken install
+2025-06-23T13:26:54.332533-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T13:26:54.789391-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T13:27:34.604422-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/opt/splunk/bin/splunk start --accept-license
+2025-06-23T13:27:34.604609-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T13:28:25.406464-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T13:29:52.099433-05:00 sanjana-VirtualBox dbus-daemon[805]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-06-23T13:30:01.980875-05:00 sanjana-VirtualBox CRON[41864]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T13:30:01.985583-05:00 sanjana-VirtualBox CRON[41864]: pam_unix(cron:session): session closed for user root
+2025-06-23T13:35:01.021184-05:00 sanjana-VirtualBox CRON[42177]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T13:35:01.027391-05:00 sanjana-VirtualBox CRON[42177]: pam_unix(cron:session): session closed for user root
+2025-06-23T13:39:42.558109-05:00 sanjana-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T13:39:42.568923-05:00 sanjana-VirtualBox pkexec[42718]: sanjana: Executing command [USER=root] [TTY=unknown] [CWD=/home/sanjana] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-06-23T13:45:01.103131-05:00 sanjana-VirtualBox CRON[43049]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T13:45:01.121955-05:00 sanjana-VirtualBox CRON[43049]: pam_unix(cron:session): session closed for user root
+2025-06-23T13:55:01.673378-05:00 sanjana-VirtualBox CRON[43615]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T13:55:01.677020-05:00 sanjana-VirtualBox CRON[43615]: pam_unix(cron:session): session closed for user root
+2025-06-23T14:05:01.285096-05:00 sanjana-VirtualBox CRON[44280]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T14:05:01.295811-05:00 sanjana-VirtualBox CRON[44280]: pam_unix(cron:session): session closed for user root
+2025-06-23T14:18:46.386969-05:00 sanjana-VirtualBox CRON[44872]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T14:18:46.387428-05:00 sanjana-VirtualBox CRON[44872]: pam_unix(cron:session): session closed for user root
+2025-06-23T14:18:46.387612-05:00 sanjana-VirtualBox CRON[44882]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T14:18:46.387691-05:00 sanjana-VirtualBox CRON[44882]: pam_unix(cron:session): session closed for user root
+2025-06-23T14:18:48.134712-05:00 sanjana-VirtualBox systemd-logind[44965]: New seat seat0.
+2025-06-23T14:18:48.266041-05:00 sanjana-VirtualBox systemd-logind[44965]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-06-23T14:18:48.266479-05:00 sanjana-VirtualBox systemd-logind[44965]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-06-23T14:18:48.285543-05:00 sanjana-VirtualBox systemd-logind[44965]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-06-23T14:18:48.314581-05:00 sanjana-VirtualBox systemd-logind[44965]: New session 2 of user sanjana.
+2025-06-23T14:18:48.761939-05:00 sanjana-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-06-23T14:18:48.848067-05:00 sanjana-VirtualBox systemd-logind[44965]: New session c1 of user gdm.
+2025-06-23T14:18:49.117629-05:00 sanjana-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-06-23T14:18:55.793882-05:00 sanjana-VirtualBox polkitd[812]: Registered Authentication Agent for unix-session:c1 (system bus name :1.147 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-06-23T14:25:01.574504-05:00 sanjana-VirtualBox CRON[45973]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T14:25:01.581404-05:00 sanjana-VirtualBox CRON[45973]: pam_unix(cron:session): session closed for user root
+2025-06-23T14:30:01.589753-05:00 sanjana-VirtualBox CRON[46272]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T14:30:01.594588-05:00 sanjana-VirtualBox CRON[46272]: pam_unix(cron:session): session closed for user root
+2025-06-23T14:35:01.601041-05:00 sanjana-VirtualBox CRON[46648]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T14:35:01.611236-05:00 sanjana-VirtualBox CRON[46648]: pam_unix(cron:session): session closed for user root
+2025-06-23T14:36:06.368868-05:00 sanjana-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-06-23T14:36:17.221501-05:00 sanjana-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-06-23T14:36:17.235816-05:00 sanjana-VirtualBox systemd-logind[44965]: Session c1 logged out. Waiting for processes to exit.
+2025-06-23T14:36:17.247918-05:00 sanjana-VirtualBox polkitd[812]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.147, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-06-23T14:36:17.251633-05:00 sanjana-VirtualBox systemd-logind[44965]: Removed session c1.
+2025-06-23T14:36:27.460182-05:00 sanjana-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-06-23T14:45:01.616383-05:00 sanjana-VirtualBox CRON[47492]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T14:45:01.619993-05:00 sanjana-VirtualBox CRON[47492]: pam_unix(cron:session): session closed for user root
+2025-06-23T14:55:01.639735-05:00 sanjana-VirtualBox CRON[49192]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T14:55:01.644010-05:00 sanjana-VirtualBox CRON[49192]: pam_unix(cron:session): session closed for user root
+2025-06-23T15:01:00.298313-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2025-06-23T15:01:00.299865-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:01:00.316878-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T15:01:19.274301-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+2025-06-23T15:01:19.275051-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:01:19.283459-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T15:01:32.923057-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/usr/bin/apt update
+2025-06-23T15:01:32.923600-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:01:35.879395-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T15:01:46.173049-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/usr/bin/apt install openssh
+2025-06-23T15:01:46.173947-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:01:46.436942-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T15:02:00.214048-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+2025-06-23T15:02:00.214233-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:02:05.209644-05:00 sanjana-VirtualBox useradd[51485]: new user: name=sshd, UID=122, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+2025-06-23T15:02:07.893127-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T15:02:15.982647-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+2025-06-23T15:02:15.983042-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:02:16.038464-05:00 sanjana-VirtualBox sshd[51868]: Server listening on :: port 22.
+2025-06-23T15:02:16.041900-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T15:02:22.743633-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2025-06-23T15:02:22.745064-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:03:27.807109-05:00 sanjana-VirtualBox sshd[51949]: Invalid user testuser from 10.0.2.15 port 33558
+2025-06-23T15:03:34.121890-05:00 sanjana-VirtualBox sshd[51949]: pam_unix(sshd:auth): check pass; user unknown
+2025-06-23T15:03:34.122028-05:00 sanjana-VirtualBox sshd[51949]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.15 
+2025-06-23T15:03:34.740837-05:00 sanjana-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:03:34.746394-05:00 sanjana-VirtualBox pkexec[51973]: sanjana: Executing command [USER=root] [TTY=unknown] [CWD=/home/sanjana] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-06-23T15:03:36.886620-05:00 sanjana-VirtualBox sshd[51949]: Failed password for invalid user testuser from 10.0.2.15 port 33558 ssh2
+2025-06-23T15:03:41.689587-05:00 sanjana-VirtualBox sshd[51949]: pam_unix(sshd:auth): check pass; user unknown
+2025-06-23T15:03:43.747582-05:00 sanjana-VirtualBox sshd[51949]: Failed password for invalid user testuser from 10.0.2.15 port 33558 ssh2
+2025-06-23T15:03:47.668215-05:00 sanjana-VirtualBox sshd[51949]: pam_unix(sshd:auth): check pass; user unknown
+2025-06-23T15:03:49.550059-05:00 sanjana-VirtualBox sshd[51949]: Failed password for invalid user testuser from 10.0.2.15 port 33558 ssh2
+2025-06-23T15:03:51.033955-05:00 sanjana-VirtualBox sshd[51949]: Connection closed by invalid user testuser 10.0.2.15 port 33558 [preauth]
+2025-06-23T15:03:51.034032-05:00 sanjana-VirtualBox sshd[51949]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.15 
+2025-06-23T15:04:25.591539-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2025-06-23T15:04:25.593995-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:05:01.649596-05:00 sanjana-VirtualBox CRON[52106]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T15:05:01.652755-05:00 sanjana-VirtualBox CRON[52106]: pam_unix(cron:session): session closed for user root
+2025-06-23T15:07:39.747283-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/opt/splunk/bin/splunk restart
+2025-06-23T15:07:39.747649-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:08:03.901495-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T15:14:57.775672-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana/Downloads ; USER=root ; COMMAND=/opt/splunk/bin/splunk restart
+2025-06-23T15:14:57.784725-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:15:01.661033-05:00 sanjana-VirtualBox CRON[54760]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T15:15:01.667839-05:00 sanjana-VirtualBox CRON[54760]: pam_unix(cron:session): session closed for user root
+2025-06-23T15:15:36.281594-05:00 sanjana-VirtualBox sshd[55356]: Invalid user wronguser from 10.0.2.15 port 44226
+2025-06-23T15:15:39.269870-05:00 sanjana-VirtualBox sshd[55356]: pam_unix(sshd:auth): check pass; user unknown
+2025-06-23T15:15:39.270495-05:00 sanjana-VirtualBox sshd[55356]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.15 
+2025-06-23T15:15:41.230691-05:00 sanjana-VirtualBox sshd[55356]: Failed password for invalid user wronguser from 10.0.2.15 port 44226 ssh2
+2025-06-23T15:15:44.053807-05:00 sanjana-VirtualBox sshd[55356]: pam_unix(sshd:auth): check pass; user unknown
+2025-06-23T15:15:46.703722-05:00 sanjana-VirtualBox sshd[55356]: Failed password for invalid user wronguser from 10.0.2.15 port 44226 ssh2
+2025-06-23T15:15:48.693739-05:00 sanjana-VirtualBox sshd[55356]: Failed password for invalid user wronguser from 10.0.2.15 port 44226 ssh2
+2025-06-23T15:15:48.703213-05:00 sanjana-VirtualBox sshd[55356]: Connection closed by invalid user wronguser 10.0.2.15 port 44226 [preauth]
+2025-06-23T15:15:48.703280-05:00 sanjana-VirtualBox sshd[55356]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.15 
+2025-06-23T15:17:01.679581-05:00 sanjana-VirtualBox CRON[55588]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T15:17:01.685655-05:00 sanjana-VirtualBox CRON[55588]: pam_unix(cron:session): session closed for user root
+2025-06-23T15:17:33.493591-05:00 sanjana-VirtualBox gdm-password]: pam_unix(gdm-password:session): session closed for user sanjana
+2025-06-23T15:17:33.819691-05:00 sanjana-VirtualBox systemd-logind[44965]: Session 2 logged out. Waiting for processes to exit.
+2025-06-23T15:17:33.969264-05:00 sanjana-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-06-23T15:17:34.002923-05:00 sanjana-VirtualBox systemd-logind[44965]: New session c2 of user gdm.
+2025-06-23T15:17:34.065902-05:00 sanjana-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-06-23T15:17:36.110628-05:00 sanjana-VirtualBox polkitd[812]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.77, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-06-23T15:17:36.626531-05:00 sanjana-VirtualBox systemd-logind[44965]: Removed session 2.
+2025-06-23T15:17:36.718727-05:00 sanjana-VirtualBox polkitd[812]: Registered Authentication Agent for unix-session:c2 (system bus name :1.203 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-06-23T15:17:47.175109-05:00 sanjana-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2025-06-23T15:17:47.175198-05:00 sanjana-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2025-06-23T15:17:47.193797-05:00 sanjana-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user sanjana(uid=1000) by sanjana(uid=0)
+2025-06-23T15:17:47.207754-05:00 sanjana-VirtualBox systemd-logind[44965]: New session 24 of user sanjana.
+2025-06-23T15:17:47.236257-05:00 sanjana-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user sanjana(uid=1000) by sanjana(uid=0)
+2025-06-23T15:17:47.443533-05:00 sanjana-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-06-23T15:17:47.768909-05:00 sanjana-VirtualBox gnome-keyring-daemon[56653]: The Secret Service was already initialized
+2025-06-23T15:17:47.769179-05:00 sanjana-VirtualBox gnome-keyring-daemon[56881]: discover_other_daemon: 1
+2025-06-23T15:17:47.770838-05:00 sanjana-VirtualBox gnome-keyring-daemon[56653]: The PKCS#11 component was already initialized
+2025-06-23T15:17:47.771327-05:00 sanjana-VirtualBox gnome-keyring-daemon[56882]: discover_other_daemon: 1
+2025-06-23T15:17:47.782504-05:00 sanjana-VirtualBox gnome-keyring-daemon[56887]: discover_other_daemon: 1
+2025-06-23T15:17:48.838138-05:00 sanjana-VirtualBox polkitd[812]: Registered Authentication Agent for unix-session:24 (system bus name :1.237 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-06-23T15:17:49.405663-05:00 sanjana-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-06-23T15:17:49.423547-05:00 sanjana-VirtualBox systemd-logind[44965]: Session c2 logged out. Waiting for processes to exit.
+2025-06-23T15:17:49.442535-05:00 sanjana-VirtualBox polkitd[812]: Unregistered Authentication Agent for unix-session:c2 (system bus name :1.203, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-06-23T15:17:49.446325-05:00 sanjana-VirtualBox systemd-logind[44965]: Removed session c2.
+2025-06-23T15:17:59.716298-05:00 sanjana-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-06-23T15:18:20.046399-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana ; USER=root ; COMMAND=/opt/splunk/bin/splunk restart
+2025-06-23T15:18:20.047055-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:18:33.447697-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T15:18:54.206507-05:00 sanjana-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:18:54.207642-05:00 sanjana-VirtualBox pkexec[59191]: sanjana: Executing command [USER=root] [TTY=unknown] [CWD=/home/sanjana] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-06-23T15:25:01.744810-05:00 sanjana-VirtualBox CRON[60618]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T15:25:01.781262-05:00 sanjana-VirtualBox CRON[60618]: pam_unix(cron:session): session closed for user root
+2025-06-23T15:27:53.885594-05:00 sanjana-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-06-23T15:28:42.815952-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana ; USER=root ; COMMAND=/usr/bin/chmod +r /var/log/auth.log
+2025-06-23T15:28:42.817216-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:28:42.823000-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T15:29:19.471322-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana ; USER=root ; COMMAND=/opt/splunk/bin/splunk restart
+2025-06-23T15:29:19.472078-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:29:41.499046-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T15:30:01.760842-05:00 sanjana-VirtualBox CRON[62425]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T15:30:01.764111-05:00 sanjana-VirtualBox CRON[62425]: pam_unix(cron:session): session closed for user root
+2025-06-23T15:35:01.776766-05:00 sanjana-VirtualBox CRON[64057]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T15:35:01.782158-05:00 sanjana-VirtualBox CRON[64057]: pam_unix(cron:session): session closed for user root
+2025-06-23T15:37:03.009032-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+2025-06-23T15:37:03.019130-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)
+2025-06-23T15:37:03.021909-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-06-23T15:45:01.442794-05:00 sanjana-VirtualBox CRON[65574]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T15:45:01.446047-05:00 sanjana-VirtualBox CRON[65574]: pam_unix(cron:session): session closed for user root
+2025-06-23T15:54:06.219201-05:00 sanjana-VirtualBox systemd-logind[863]: New seat seat0.
+2025-06-23T15:54:06.219202-05:00 sanjana-VirtualBox systemd-logind[863]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-06-23T15:54:06.219203-05:00 sanjana-VirtualBox systemd-logind[863]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-06-23T15:54:06.219204-05:00 sanjana-VirtualBox systemd-logind[863]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-06-23T15:54:06.296506-05:00 sanjana-VirtualBox polkitd[830]: Loading rules from directory /etc/polkit-1/rules.d
+2025-06-23T15:54:06.298672-05:00 sanjana-VirtualBox polkitd[830]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-06-23T15:54:06.346049-05:00 sanjana-VirtualBox polkitd[830]: Finished loading, compiling and executing 16 rules
+2025-06-23T15:54:06.354183-05:00 sanjana-VirtualBox polkitd[830]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-06-23T15:54:07.318720-05:00 sanjana-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-06-23T15:54:07.328284-05:00 sanjana-VirtualBox systemd-logind[863]: New session c1 of user gdm.
+2025-06-23T15:54:07.366875-05:00 sanjana-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-06-23T15:54:09.600132-05:00 sanjana-VirtualBox polkitd[830]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-06-23T15:54:18.025858-05:00 sanjana-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2025-06-23T15:54:18.026108-05:00 sanjana-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2025-06-23T15:54:18.039797-05:00 sanjana-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user sanjana(uid=1000) by sanjana(uid=0)
+2025-06-23T15:54:18.049876-05:00 sanjana-VirtualBox systemd-logind[863]: New session 2 of user sanjana.
+2025-06-23T15:54:18.093433-05:00 sanjana-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user sanjana(uid=1000) by sanjana(uid=0)
+2025-06-23T15:54:18.440777-05:00 sanjana-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-06-23T15:54:18.850343-05:00 sanjana-VirtualBox gnome-keyring-daemon[1686]: The Secret Service was already initialized
+2025-06-23T15:54:18.851128-05:00 sanjana-VirtualBox gnome-keyring-daemon[1884]: discover_other_daemon: 1
+2025-06-23T15:54:18.862701-05:00 sanjana-VirtualBox gnome-keyring-daemon[1686]: The PKCS#11 component was already initialized
+2025-06-23T15:54:18.863138-05:00 sanjana-VirtualBox gnome-keyring-daemon[1895]: discover_other_daemon: 1
+2025-06-23T15:54:18.877257-05:00 sanjana-VirtualBox gnome-keyring-daemon[1896]: discover_other_daemon: 1
+2025-06-23T15:54:20.500994-05:00 sanjana-VirtualBox polkitd[830]: Registered Authentication Agent for unix-session:2 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-06-23T15:54:22.180903-05:00 sanjana-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-06-23T15:54:22.188174-05:00 sanjana-VirtualBox systemd-logind[863]: Session c1 logged out. Waiting for processes to exit.
+2025-06-23T15:54:22.220945-05:00 sanjana-VirtualBox systemd-logind[863]: Removed session c1.
+2025-06-23T15:54:22.221349-05:00 sanjana-VirtualBox polkitd[830]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-06-23T15:54:32.546275-05:00 sanjana-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-06-23T15:55:03.275135-05:00 sanjana-VirtualBox CRON[2691]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-23T15:55:03.278736-05:00 sanjana-VirtualBox CRON[2691]: pam_unix(cron:session): session closed for user root
+2025-06-23T15:55:20.965090-05:00 sanjana-VirtualBox sudo:  sanjana : TTY=pts/0 ; PWD=/home/sanjana ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/sanjana/Desktop/auth.log
+2025-06-23T15:55:20.965305-05:00 sanjana-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sanjana(uid=1000)

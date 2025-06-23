@@ -1,0 +1,8 @@
+# Search for failed SSH login attempts
+index=main source="/var/log/auth.log" | search "Failed password"
+
+# Count failed logins by username
+index=main source="/var/log/auth.log" "Failed password" | rex "for invalid user (?<user>\w+)" | stats count by user
+
+# View authentication events from SSH
+index=main source="/var/log/auth.log" | search sshd | table _time, host, source, sourcetype, _raw
